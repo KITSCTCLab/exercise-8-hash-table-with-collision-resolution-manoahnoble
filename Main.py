@@ -7,6 +7,7 @@ def display_hash(hashtable) -> None:
 		values = hashtable[i]
 		for j in values:
 			print("-->",j,end=" ")
+		print()
 
 def Hashing(keyvalue) -> int:
 	return keyvalue % len(HashTable)
