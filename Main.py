@@ -4,6 +4,8 @@ def display_hash(hashtable) -> None:
 	# Write your code here
 	for element_no in range(len(hashtable)):
 		print(keyvalue-->data)
+		print(f"{element_no}",end=" ")
+		values = hashtable[element_no]
 
 def Hashing(keyvalue) -> int:
 	return keyvalue % len(HashTable)
