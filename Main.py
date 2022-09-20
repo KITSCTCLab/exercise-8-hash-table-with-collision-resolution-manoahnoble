@@ -2,10 +2,11 @@ import re
 
 def display_hash(hashtable) -> None:
 	# Write your code here
-	for element_no in range(len(hashtable)):
-		print(keyvalue-->data)
-		print(f"{element_no}",end=" ")
+	for i in range(len(hashtable)):
+		print(element_no,end=" ")
 		values = hashtable[element_no]
+		for j in values:
+			print("-->",j,end=" ")
 
 def Hashing(keyvalue) -> int:
 	return keyvalue % len(HashTable)
